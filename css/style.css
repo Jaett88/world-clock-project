@@ -1,6 +1,9 @@
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+  background-image: url("https://i.imgur.com/OeHdP3y.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -24,9 +27,10 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
-  background: white;
-  padding: 30px;
+  margin: 50px auto;
+  background: #f4eadf;
+  padding: 20px;
+  opacity: 0.6;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
@@ -36,7 +40,7 @@ select {
   margin: 10px 0;
   justify-content: space-between;
   padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
 }
 
 .city:last-child {
@@ -44,11 +48,11 @@ select {
 }
 
 .date {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .time {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -60,6 +64,10 @@ select {
 
 footer {
   text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  color: burlywood;
+}
+
+a {
+  color: red;
 }
